@@ -8,7 +8,7 @@
 	path = lib/middleclass
 	url = https://github.com/kikito/middleclass
 [submodule "lib/sti"]
-	path = lib/Simple-Tiled-Implementation
+	path = lib/sti
 	url = https://github.com/karai17/Simple-Tiled-Implementation
 [submodule "lib/inspect"]
 	path = lib/inspect
