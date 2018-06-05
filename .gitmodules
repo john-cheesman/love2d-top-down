@@ -3,31 +3,28 @@
 	url = https://github.com/vrld/hump
 [submodule "lib/ldoc"]
 	path = lib/ldoc
-	url = https://github.com/stevedonovan/LDoc
+	url = https://github.com/stevedonovan/LDoc/tree/1.4.6
 [submodule "lib/middleclass"]
 	path = lib/middleclass
-	url = https://github.com/kikito/middleclass
+	url = https://github.com/kikito/middleclass/tree/v4.1.1
 [submodule "lib/sti"]
 	path = lib/Simple-Tiled-Implementation
 	url = https://github.com/karai17/Simple-Tiled-Implementation
 [submodule "lib/inspect"]
 	path = lib/inspect
-	url = https://github.com/kikito/inspect.lua
+	url = https://github.com/kikito/inspect.lua/tree/v3.1.1
 [submodule "lib/anim8"]
 	path = lib/anim8
-	url = https://github.com/kikito/anim8
-[submodule "lib/tween.lua"]
-	path = lib/tween
-	url = https://github.com/kikito/tween.lua
+	url = https://github.com/kikito/anim8/tree/v2.3.1
 [submodule "lib/bump"]
 	path = lib/bump
-	url = https://github.com/kikito/bump.lua
+	url = https://github.com/kikito/bump.lua/tree/v3.1.7
 [submodule "lib/beholder"]
 	path = lib/beholder
-	url = https://github.com/kikito/beholder.lua
+	url = https://github.com/kikito/beholder.lua/tree/v2.1.1
 [submodule "lib/stateful"]
 	path = lib/stateful
-	url = https://github.com/kikito/stateful.lua
+	url = https://github.com/kikito/stateful.lua/tree/v1.0.5
 [submodule "lib/cargo"]
 	path = lib/cargo
-	url = https://github.com/bjornbytes/cargo
+	url = https://github.com/bjornbytes/cargo/tree/v0.1.1
