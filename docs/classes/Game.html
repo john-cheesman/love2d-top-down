@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>Love2D top-down documentation</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>Love2D top-down</h1>
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Local_Functions">Local Functions</a></li>
+<li><a href="#Methods">Methods</a></li>
+</ul>
+
+
+<h2>Classes</h2>
+<ul class="nowrap">
+  <li><a href="../classes/Factory.html">Factory</a></li>
+  <li><strong>Game</strong></li>
+</ul>
+<h2>Modules</h2>
+<ul class="nowrap">
+  <li><a href="../modules/world.html">world</a></li>
+  <li><a href="../modules/utility.html">utility</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Class <code>Game</code></h1>
+<p>Base game singleton.</p>
+<p></p>
+
+
+<h2><a href="#Local_Functions">Local Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#Game.initGamepad">Game.initGamepad ()</a></td>
+	<td class="summary">Initialise a single gamepad if connected.</td>
+	</tr>
+</table>
+<h2><a href="#Methods">Methods</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#Game:initialize">Game:initialize ()</a></td>
+	<td class="summary">Game constructor.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Game:baseUpdate">Game:baseUpdate (dt)</a></td>
+	<td class="summary">Base update callback.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Game:baseDraw">Game:baseDraw ()</a></td>
+	<td class="summary">Base draw callback.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Game:baseKeypressed">Game:baseKeypressed (key, code)</a></td>
+	<td class="summary">Base key pressed callback.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Game:baseJoystickreleased">Game:baseJoystickreleased (joystick, button)</a></td>
+	<td class="summary">Base joystick realesed callback.</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2 class="section-header "><a name="Local_Functions"></a>Local Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "Game.initGamepad"></a>
+    <strong>Game.initGamepad ()</strong>
+    </dt>
+    <dd>
+    Initialise a single gamepad if connected.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="https://www.lua.org/manual/5.3/manual.html#6.6">table</a></span>
+        A gamepad instance or nil
+    </ol>
+
+
+
+
+</dd>
+</dl>
+    <h2 class="section-header "><a name="Methods"></a>Methods</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "Game:initialize"></a>
+    <strong>Game:initialize ()</strong>
+    </dt>
+    <dd>
+    Game constructor.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Game:baseUpdate"></a>
+    <strong>Game:baseUpdate (dt)</strong>
+    </dt>
+    <dd>
+    Base update callback.
+ Shared updates for all Game states, including control event triggers and timer
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">dt</span>
+            <span class="types"><span class="type">number</span></span>
+         Time delta
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Game:baseDraw"></a>
+    <strong>Game:baseDraw ()</strong>
+    </dt>
+    <dd>
+    Base draw callback.
+ Shared draws for all Game states
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Game:baseKeypressed"></a>
+    <strong>Game:baseKeypressed (key, code)</strong>
+    </dt>
+    <dd>
+    Base key pressed callback.
+ Shared key presses for all Game states
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">key</span>
+            <span class="types"><span class="type">KeyConstant</span></span>
+         Love 2D KeyConstant
+        </li>
+        <li><span class="parameter">code</span>
+            <span class="types"><span class="type">Scancode</span></span>
+         Love 2D Scancode
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Game:baseJoystickreleased"></a>
+    <strong>Game:baseJoystickreleased (joystick, button)</strong>
+    </dt>
+    <dd>
+    Base joystick realesed callback.
+ Shared joystick input for all Game states
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">joystick</span>
+            <span class="types"><span class="type">Joystick</span></span>
+         Love 2D joystick instance
+        </li>
+        <li><span class="parameter">button</span>
+            <span class="types"><span class="type">number</span></span>
+         Button number
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.6</a></i>
+<i style="float:right;">Last updated 2018-06-06 09:19:08 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>
