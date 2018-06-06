@@ -2,9 +2,7 @@
 
 > A starter project for a tile-based top-down game, built with Love2D
 
-## Setup
-    $ git submodule init
-    $ git submodule update
+## Build
     $ sh build.sh
 
 ## Run
